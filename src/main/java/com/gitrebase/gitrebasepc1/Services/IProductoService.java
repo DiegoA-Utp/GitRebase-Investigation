@@ -14,4 +14,5 @@ public interface IProductoService {
 
     public void delete(Producto producto);
 
+    public List<Producto> findByCategoriaId(Long idCategoria);
 }

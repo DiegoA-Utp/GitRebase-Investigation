@@ -43,4 +43,13 @@ public class ProductoServiceImpl implements IProductoService {
 
     }
 
+    @Override
+    public List<Producto> findByCategoriaId(Long idCategoria) {
+        return productoDao.findByCategoriaId(idCategoria);
+    }
+
+    @Override
+    public List<Producto> findByNombre(String nombre){
+        return productoDao.findByNombre(nombre);
+    }
 }
