@@ -49,7 +49,8 @@ public class ProductoServiceImpl implements IProductoService {
     }
 
     @Override
-    public List<Producto> findByNombre(String nombre){
+    public List<Producto> findByNombre(String nombre) {
         return productoDao.findByNombre(nombre);
     }
+
 }

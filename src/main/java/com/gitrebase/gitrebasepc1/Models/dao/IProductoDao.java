@@ -9,6 +9,7 @@ import com.gitrebase.gitrebasepc1.Models.entities.Producto;
 public interface IProductoDao extends CrudRepository<Producto, Long> {
 
     List<Producto> findByCategoriaId(Long idCategoria);
-    
+
     List<Producto> findByNombre(String nombre);
+    
 }
