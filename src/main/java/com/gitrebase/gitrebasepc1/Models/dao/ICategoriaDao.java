@@ -6,4 +6,5 @@ import com.gitrebase.gitrebasepc1.Models.entities.Categoria;
 
 public interface ICategoriaDao extends CrudRepository<Categoria, Long> {
     
+    
 }
