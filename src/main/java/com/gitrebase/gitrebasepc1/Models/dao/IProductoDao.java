@@ -11,5 +11,7 @@ public interface IProductoDao extends CrudRepository<Producto, Long> {
     List<Producto> findByCategoriaId(Long idCategoria);
 
     List<Producto> findByNombre(String nombre);
+
+    
     
 }

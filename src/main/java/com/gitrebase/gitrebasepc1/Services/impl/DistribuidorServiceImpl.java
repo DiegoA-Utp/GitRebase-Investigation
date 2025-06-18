@@ -27,6 +27,11 @@ public class DistribuidorServiceImpl implements IDistribuidorService {
     }
 
     @Override
+    public Distrubuidor findByNombre(String nombre) {
+        return distribuidorDao.findByNombre(nombre);
+    }
+
+    @Override
     public Distrubuidor addDistribuidor(Distrubuidor distribuidor) {
         return distribuidorDao.save(distribuidor);
     }

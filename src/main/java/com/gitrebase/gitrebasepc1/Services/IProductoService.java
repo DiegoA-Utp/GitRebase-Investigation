@@ -17,4 +17,5 @@ public interface IProductoService {
     public List<Producto> findByCategoriaId(Long idCategoria);
 
     public List<Producto> findByNombre(String nombre);
+    
 }

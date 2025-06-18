@@ -16,4 +16,6 @@ public interface IDistribuidorService {
 
     void deleteDistribuidor(Long id);
 
+    Distrubuidor findByNombre(String nombre);
+
 }
